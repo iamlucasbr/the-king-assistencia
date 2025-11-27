@@ -1,0 +1,1 @@
+export const WHATSAPP_LINK = "https://wa.me/5591980318570?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento.";

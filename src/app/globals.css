@@ -1,26 +1,48 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Cores da Identidade "The King" */
+  --color-primary: #D4AF37;       /* Dourado Metálico */
+  --color-primary-hover: #B5952F; /* Dourado Escuro */
+  --color-primary-light: #F3E5AB; /* Champagne */
+
+  /* Tons Escuros Premium */
+  --color-dark-950: #050505; /* Preto OLED */
+  --color-dark-900: #121212; /* Fundo Padrão */
+  --color-dark-800: #1E1E1E; /* Cards */
+  --color-dark-700: #2D2D2D; /* Bordas */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Configurações Globais */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 5, 5, 5; /* Usando nosso dark-950 */
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Suavização de fonte Apple Style */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-white dark:bg-dark-950 text-gray-900 dark:text-gray-100;
+}
+
+/* Scrollbar fina e moderna */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-dark-700 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary;
 }
