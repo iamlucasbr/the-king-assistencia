@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The King - O Rei do iPhone 👑
 
-## Getting Started
+> Landing Page de Alto Padrão para Assistência Técnica Especializada Apple.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
+
+## 🚀 Sobre o Projeto
+
+Este projeto é uma Landing Page moderna, responsiva e focada em conversão, desenvolvida para a assistência técnica **The King - O Rei do iPhone** em Belém/PA. 
+
+O objetivo foi criar uma interface "Premium" (Dark/Gold theme) que transmita autoridade técnica e confiança, utilizando as tecnologias mais recentes do ecossistema React.
+
+🔗 **Demo Online:** [https://the-king-assistencia.vercel.app/](https://the-king-assistencia.vercel.app/)
+
+## 🛠 Tech Stack
+
+O projeto foi construído utilizando as melhores práticas de Engenharia de Software:
+
+* **Framework:** [Next.js 14+](https://nextjs.org/) (App Router & Server Components)
+* **Linguagem:** [TypeScript](https://www.typescriptlang.org/) (Robustez e tipagem estática)
+* **Estilização:** [Tailwind CSS](https://tailwindcss.com/) (Design System customizado & Responsividade)
+* **Animações:** [Framer Motion](https://www.framer.com/motion/) (Micro-interações e transições fluidas)
+* **Ícones:** Lucide React & React Icons
+* **Deploy:** Vercel (CI/CD Automatizado)
+
+## ✨ Funcionalidades
+
+* 📱 **Mobile-First Design:** Interface pensada primariamente para a experiência em smartphones.
+* 🎨 **UI Premium:** Identidade visual Dark Mode com detalhes em Dourado (Gold), alinhada à estética Apple Pro.
+* ⚡ **Alta Performance:** Otimização de imagens, fontes e carregamento rápido via Next.js.
+* 💬 **Foco em Conversão:** Botões de CTA (Call to Action) e botão flutuante integrados diretamente com a API do WhatsApp Business.
+* 📍 **Geolocalização:** Integração visual com Google Maps para fácil localização da loja física.
+* ⭐ **Prova Social:** Componente de "Infinite Marquee" para exibição de avaliações de clientes reais.
+
+## 📦 Como Rodar Localmente
+
+Clone o projeto e instale as dependências:
 
 ```bash
+# Clone o repositório
+git clone [https://github.com/iamlucasbr/the-king-assistencia.git](https://github.com/iamlucasbr/the-king-assistencia.git)
+
+# Entre na pasta
+cd the-king-assistencia
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
